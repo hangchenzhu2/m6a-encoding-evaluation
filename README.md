@@ -1,7 +1,7 @@
-# Input encoding dominates m6A site prediction
+# Input Encoding Outweighs Network Architecture in m6A Site Prediction
 
-Code and data for *Input encoding dominates m6A site prediction performance:
-a systematic evaluation across 23 datasets*.
+Code and data for *Input Encoding Outweighs Network Architecture in m6A Site
+Prediction: A Cross-Dataset and Cross-Architecture Evaluation*.
 
 ## Contents
 
@@ -64,6 +64,11 @@ with `encoding, model, seed, AUC, AP, MCC, Acc, Sen, Spe, fold`; figures go to
   `data/rebuilt/`.
 
 ## Data source
+- `data/original/` — the 11 benchmark datasets released with CLSM6A
+  (Zhang et al., *Bioinformatics* 2023;39(12):btad709).
+- `data/rebuilt/` — the 12 datasets built in this work from RMBase v3.0
+  (Xuan et al., *Nucleic Acids Res* 2024;52(D1):D273-D284) and Ensembl
+  GRCh38 release 110 (Martin et al., *Nucleic Acids Res* 2023;51(D1):D933-D941).
 
 The 11 datasets in `data/original/` are the benchmark released with CLSM6A;
 please cite Zhang et al., *Bioinformatics* 2023;39(12):btad709.
