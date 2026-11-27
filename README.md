@@ -1,6 +1,6 @@
-# Input Encoding Outweighs Network Architecture in m6A Site Prediction
+# Input Encoding Outweighs Network Architecture in RNA m6A Site Prediction
 
-Code and data for *Input Encoding Outweighs Network Architecture in m6A Site
+Code and data for *Input Encoding Outweighs Network Architecture in RNA m6A Site
 Prediction: A Cross-Dataset and Cross-Architecture Evaluation*.
 
 ## Contents
